@@ -1,5 +1,5 @@
 {% set name = "dvc-ssh" %}
-{% set version = "4.2.1" %}
+{% set version = "4.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 95deae680200fbc9472bf4e32adae3b6618a8f9f38ed204c618bca28df8c912e
+  sha256: 4fac932c5f22bd9444d87d4e7b3ffd6c09cc8e56d98eb3c6d4b44301d3535017
 
 build:
   noarch: python
